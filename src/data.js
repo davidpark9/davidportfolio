@@ -4,34 +4,34 @@ import React from 'react';
 
 export const projects = [
     {
-      title: "React Reserve",
-      subtitle: "MERN Stack",
+      title: "Mindful",
+      subtitle: "UX / UI",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-      image: "./project-1.gif",
-      link: "https://reactbootcamp.com",
+        "Positive Psychology as a solution for depression.",
+      image: "./project-4.gif",
+     
     },
     {
-      title: "React Tracks",
-      subtitle: "React and Python",
+      title: "Finlink",
+      subtitle: "UX / UI",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Connecting people to the world of finance.",
       image: "./project-2.gif",
       link: "https://reactbootcamp.com",
     },
     {
-      title: "DevChat",
-      subtitle: "React and Firebase",
+      title: "Cheers",
+      subtitle: "Startup",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Cheers is a mobile application that serves users local beverages from their favorite bars and stores. Available now in the app store.",
       image: "./project-3.gif",
       link: "https://reactbootcamp.com",
     },
     {
-      title: "Epic Todo App",
-      subtitle: "React Hooks",
+      title: "Twitter / Cornell Tech",
+      subtitle: "Startup Studio",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+        "Integrating NFT marketplace within Twitter's ecosystem and developed onboarding for future users.",
       image: "./project-4.gif",
       link: "https://reactbootcamp.com",
     },

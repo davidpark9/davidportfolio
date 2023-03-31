@@ -27,7 +27,7 @@ const textAnim = TweenMax.fromTo(text, 8, {opacity: 1}, {opacity: 0});
 
 //SCENE 2
 let scene2 = new ScrollMagic.Scene({ 
-    duration: 3000,
+    duration: 4000,
     triggerElement: intro,
     triggerHook: 0
 })
@@ -39,8 +39,8 @@ let scene2 = new ScrollMagic.Scene({
 
 //Video Animation
 
-let accelamount = 0.6;
-let scrollpos = 0;
+let accelamount = .2;
+let scrollpos = 3;
 let delay = 0;
 scene.on('update', e => {
     scrollpos =e.scrollPos / 1000;
