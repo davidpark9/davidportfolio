@@ -17,7 +17,7 @@ export const projects = [
       description:
         "Connecting people to the world of finance.",
       image: "./project-2.gif",
-      link: "https://reactbootcamp.com",
+      link: "https://reactbootcamp.co",
     },
     {
       title: "Cheers",
@@ -25,7 +25,7 @@ export const projects = [
       description:
         "Cheers is a mobile application that serves users local beverages from their favorite bars and stores. Available now in the app store.",
       image: "./project-3.gif",
-      link: "https://reactbootcamp.com",
+      link: "https://reactbootcamp.co",
     },
     {
       title: "Twitter / Cornell Tech",
@@ -33,7 +33,7 @@ export const projects = [
       description:
         "Integrating NFT marketplace within Twitter's ecosystem and developed onboarding for future users.",
       image: "./project-4.gif",
-      link: "https://reactbootcamp.com",
+      link: "https://reactbootcamp.co",
     },
   ];
   
