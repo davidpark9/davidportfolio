@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -9,6 +16,43 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.intro {
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+}
+
+.intro video {
+  position: absolute;
+  top:140px;
+  left:0;
+  height: 50%;
+  width: 100%;  
+  object-fit: contain;
+}
+
+.intro h1 {
+  position: absolute;
+  font-size: 20px;
+  top: 50%;
+  bottom: -140px;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+
+#videosection {
+height: 100vh;
+color: pink;
+}
+
+#videosection h1{ 
+  padding-top: 300px;
+  text-align: center;
+  font-size: 80px
+
 }
 
 code {
